@@ -14,6 +14,11 @@ body {
     padding: 16px 0;
 }
 
+#app ul {
+    padding: 0;
+    list-style: none;
+}
+
 #app li {
     line-height: 1.5;
 }
@@ -26,4 +31,15 @@ body {
     font-size: 12px;
     cursor: pointer;
     color: lightskyblue;
+}
+
+#app li > span.done {
+    text-decoration: line-through;
+    color: #bbb;
+}
+
+.info {
+    font-size: 16px;
+    font-weight: normal;
+    color: #ccc;
 }
